@@ -1,0 +1,14 @@
+name: BridgeESGUI
+version: 1.0
+main: fr.example.bridgeesgui.BridgeAdd
+api-version: 1.16
+author: Toi
+commands:
+  bridgeadd:
+    description: Ajoute un item moddé du joueur au shop ESGUI
+    usage: /bridgeadd <player> <section> <buy> <sell>
+    permission: bridgeesgui.use
+permissions:
+  bridgeesgui.use:
+    description: Permet d'utiliser /bridgeadd
+    default: op
